@@ -1,0 +1,6 @@
+{
+  "extends": ["node"],
+  "rules": {
+    "import/no-nodejs-modules": 0
+  }
+}

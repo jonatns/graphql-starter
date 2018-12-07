@@ -1,0 +1,30 @@
+{
+  "name": "graphql-starter",
+  "version": "1.0.0",
+  "description": "GraphQL project starter",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/server.js",
+    "build": "babel src —-out-dir dist",
+    "serve": "node dist/server.js",
+    "test": "NODE_ENV=testing jest --forceExit --runInBand"
+  },
+  "dependencies": {
+    "dataloader": "^1.4.0",
+    "dotenv": "^6.2.0",
+    "graphql-yoga": "^1.16.7",
+    "lodash.keyby": "^4.6.0",
+    "lodash.merge": "^4.6.1",
+    "mongoose": "^5.3.15"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/node": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "eslint": "^5.9.0",
+    "eslint-config-node": "^4.0.0",
+    "jest": "^23.6.0",
+    "nodemon": "^1.18.7"
+  }
+}
