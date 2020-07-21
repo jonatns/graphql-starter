@@ -16,7 +16,7 @@
     "graphql-yoga": "^1.16.7",
     "lodash.keyby": "^4.6.0",
     "lodash.merge": "^4.6.1",
-    "mongoose": "^5.3.15"
+    "mongoose": "^5.7.5"
   },
   "devDependencies": {
     "@babel/core": "^7.2.0",
